@@ -1,0 +1,9 @@
+# 启动端口号
+server:
+  post: 8888
+
+# MySQL数据源配置
+mysql:
+  username: root      # 修改为自己数据库的用户名
+  password: Rost970812xing    # 修改为自己数据库的密码
+  url: tcp(gz-cynosdbmysql-grp-ehys06gj.sql.tencentcdb.com:28365)/chat?charset=utf8&parseTime=True&loc=Local
